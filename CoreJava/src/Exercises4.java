@@ -9,11 +9,11 @@ public class Exercises4 {
 		age=sc.nextInt();
 		System.out.println("Enter Sex : M/F");
 		sex=sc.next();
-		if(sex=="F")
+		if(sex!="F")
 		{
 			System.out.println("She will work only in Urben Area");
 		}
-		if(sex=="M")
+		if(sex!="M")
 		{
 			if((age>=20) && (age<40))
 			{
