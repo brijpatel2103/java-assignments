@@ -65,7 +65,9 @@ public class AccountBalance {
 		System.out.println("Deposit $1000 into account BA1234");
 		BA1234.deposit(1000);
 		System.out.println("New balance after depositing $1000 : "+BA1234.getBalance());
+		BA1234.withdraw(600);
 		System.out.println("New balance after withdrawing $600 : "+BA1234.getBalance());
+		
 		System.out.println("create new Savingaccount object (A/C no. SA1234) with initial balance $450 : ");
 		SavingAccount SA1234 = new SavingAccount("SA1234", 450);
 		SA1234.withdraw(300);
