@@ -1,0 +1,29 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DynamicWebTable {
+	public static void main(String[] args) throws Exception {
+		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://demo.guru99.com/test/web-table-element.php");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		List<WebElement> cols=driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/thead/tr/th"));
+		System.out.println("Number of Elements : "+cols.size());
+		Thread.sleep(3000);
+		
+		List<WebElement> rows=driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr/td[1]"));
+		System.out.println("Number of Elements : "+rows.size());
+		for(WebElement we:rows)
+		{
+			System.out.println(we.getText());
+			Thread.sleep(3000);
+		}
+		Thread.sleep(3000);
+		driver.close();
+	}
+
+}

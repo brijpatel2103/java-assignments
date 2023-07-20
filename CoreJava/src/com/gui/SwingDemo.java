@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -118,17 +119,72 @@ public class SwingDemo implements ActionListener{
 		}
 		else if(e.getSource()==b2)
 		{
-			System.out.println("Search Button");
-			
+			try {
+				Class.forName("com.mysql.jdbc.Driver");
+				Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/automation","root","");
+				String sql="Select*from student where id=?";
+				PreparedStatement pst=conn.prepareStatement(sql);
+				pst.setInt(1, Integer.parseInt(t1.getText()));
+				pst.execute();
+				ResultSet rs=pst.executeQuery();
+				if(rs.next())
+				{
+					t2.setText(rs.getString("fname"));
+					t3.setText(rs.getString("lname"));
+					t4.setText(rs.getString("email"));
+					t5.setText(rs.getString("mobile"));
+				}
+				else
+				{
+					JOptionPane.showMessageDialog(f, "Id Not Found");
+				}
+			} catch (Exception e2) {
+				e2.printStackTrace();
+				
+			}
 		}
 		else if(e.getSource()==b3)
 		{
-			System.out.println("Update Button");
+			try {
+				Class.forName("com.mysql.jdbc.Driver");
+				Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/automation","root","");
+				String sql="Update student set fname=?,lname=?,email=?,mobile=? where id=?";
+				PreparedStatement pst=conn.prepareStatement(sql);
+				pst.setString(1, t2.getText());
+				pst.setString(2, t3.getText());
+				pst.setString(3, t4.getText());
+				pst.setLong(4,Long.parseLong(t5.getText()));
+				pst.setInt(5,Integer.parseInt(t1.getText()));
+				pst.executeUpdate();
+				t1.setText("");
+				t2.setText("");
+				t3.setText("");
+				t4.setText("");
+				t5.setText("");
+				JOptionPane.showMessageDialog(f, "Data Updated Successfully");
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
 		}
 		else if(e.getSource()==b4)
 		{
-			System.out.println("Delete Button");
-		}
+			try {
+				Class.forName("com.mysql.jdbc.Driver");
+				Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/automation","root","");
+				String sql="Delete from student where id=?";
+				PreparedStatement pst=conn.prepareStatement(sql);
+				pst.setInt(1,Integer.parseInt(t1.getText()));
+				pst.executeUpdate();
+				t1.setText("");
+				t2.setText("");
+				t3.setText("");
+				t4.setText("");
+				t5.setText("");
+				JOptionPane.showMessageDialog(f, "Data Deleted Successfully");
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
+			}
 	}
 
 }

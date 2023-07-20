@@ -1,0 +1,14 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tag_Class {
+	public static void main(String[] args) throws Exception {
+		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://www.instagram.com/");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector("input."))
+	}
+
+}
