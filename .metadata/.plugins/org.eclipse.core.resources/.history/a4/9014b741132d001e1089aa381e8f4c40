@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <parameter name="Email" value="brijesh.3697@gmail.com">
+  <parameter name="Password" value="brijesh.3697">
+    <classes>
+      <class name="com.testng.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
