@@ -28,7 +28,7 @@ public class JunitTest {
 		Thread.sleep(2000);	driver.findElement(By.id("email")).sendKeys("brijesh.3697@gmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.id("password")).sendKeys("brijesh.3697");
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		driver.findElement(By.id("login-button")).click();
 		Thread.sleep(2000);
 	}

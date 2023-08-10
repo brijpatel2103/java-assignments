@@ -1,29 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-31T11:22:01 IST" name="Suite" finished-at="2023-07-31T11:22:36 IST" duration-ms="35213">
+  <suite started-at="2023-08-04T12:11:42 IST" name="Default suite" finished-at="2023-08-04T12:11:59 IST" duration-ms="16959">
     <groups>
     </groups>
-    <test started-at="2023-07-31T11:22:01 IST" name="Test" finished-at="2023-07-31T11:22:36 IST" duration-ms="35213">
-      <class name="com.testng.ParameterTest">
-        <test-method signature="driver(java.lang.String,java.lang.String)[pri:0, instance:com.testng.ParameterTest@47af7f3d]" started-at="2023-07-31T11:22:01 IST" name="driver" finished-at="2023-07-31T11:22:36 IST" duration-ms="35098" status="PASS">
+    <test started-at="2023-08-04T12:11:42 IST" name="Default test" finished-at="2023-08-04T12:11:59 IST" duration-ms="16959">
+      <class name="com.framework.KeywordDrivenFW">
+        <test-method signature="test(java.lang.String)[pri:0, instance:com.framework.KeywordDrivenFW@222545dc]" started-at="2023-08-04T12:11:43 IST" name="test" data-provider="brijesh" finished-at="2023-08-04T12:11:49 IST" duration-ms="5815" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[brijesh.3697@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[brijesh.3697]]>
+                <![CDATA[open browser]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driver -->
-      </class> <!-- com.testng.ParameterTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:com.framework.KeywordDrivenFW@222545dc]" started-at="2023-08-04T12:11:49 IST" name="test" data-provider="brijesh" finished-at="2023-08-04T12:11:52 IST" duration-ms="2837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enter url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:com.framework.KeywordDrivenFW@222545dc]" started-at="2023-08-04T12:11:52 IST" name="test" data-provider="brijesh" finished-at="2023-08-04T12:11:54 IST" duration-ms="2227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enter username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:com.framework.KeywordDrivenFW@222545dc]" started-at="2023-08-04T12:11:54 IST" name="test" data-provider="brijesh" finished-at="2023-08-04T12:11:56 IST" duration-ms="2128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enter password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:com.framework.KeywordDrivenFW@222545dc]" started-at="2023-08-04T12:11:56 IST" name="test" data-provider="brijesh" finished-at="2023-08-04T12:11:58 IST" duration-ms="2211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String)[pri:0, instance:com.framework.KeywordDrivenFW@222545dc]" started-at="2023-08-04T12:11:58 IST" name="test" data-provider="brijesh" finished-at="2023-08-04T12:11:59 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[close browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.framework.KeywordDrivenFW -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

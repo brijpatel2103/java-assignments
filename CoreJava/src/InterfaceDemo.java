@@ -4,7 +4,7 @@ interface ifs1
 		System.out.println("Meth1 defined in ifs1");
 		
 	}
-	
+	 
 	
 }
 interface ifs2 extends ifs1

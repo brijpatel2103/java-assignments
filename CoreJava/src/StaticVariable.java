@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StaticVariable {
 	static int a;
-	void steValue()
+	void SetValue()
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter A : ");
@@ -19,9 +19,9 @@ public class StaticVariable {
 		StaticVariable s2= new StaticVariable();
 		StaticVariable s3= new StaticVariable();
 		
-		s1.steValue();
-		s2.steValue();
-		s3.steValue();
+		s1.SetValue();
+		s2.SetValue();
+		s3.SetValue();
 		
 		s1.putValue();
 		s2.putValue();
