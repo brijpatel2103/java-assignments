@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\user\Java_Automation\CoreJava\src\com\thread\ThreadSycn.java"/>
 			<item value="C:\Users\user\Java_Automation\MavenDemo"/>
 			<item value="C:\Users\user\Java_Automation\JunitDemo\src"/>
 			<item value="C:\Users\user\Java_Automation\CoreJava"/>
@@ -28,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.maven.AppiumTest"/>
 			<item value="com.maven.TestNGTesting"/>
 			<item value="com.maven.Junitmaven"/>
 			<item value="com.maven"/>
@@ -37,6 +39,7 @@
 			<item value="com.maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="AppiumTest"/>
 			<item value="TestNGTesting"/>
 			<item value="Junitmaven"/>
 			<item value="MavenDemo"/>

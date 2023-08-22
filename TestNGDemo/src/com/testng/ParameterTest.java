@@ -17,7 +17,7 @@ public class ParameterTest {
 	@Parameters({"Email","Password"})
 	public static void driver(@Optional("Abc") String Email, String Password) throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.lambdatest.com/");
 		driver.manage().window().maximize();

@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SampleDemo {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();

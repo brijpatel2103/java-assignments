@@ -44,7 +44,7 @@ public class KeywordDrivenFW {
 	@Test(dataProvider = "brijesh")
 	public void test(String keyword) throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		if(keyword.equals("open browser"))
 		{
 			driver=new ChromeDriver();

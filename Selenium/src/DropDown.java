@@ -4,7 +4,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropDown {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/newtours/register.php");
 		driver.manage().window().maximize();

@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DynamicWebTable {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.moneycontrol.com/stocks/marketstats/bsegainer/index.php");
 		driver.manage().window().maximize();

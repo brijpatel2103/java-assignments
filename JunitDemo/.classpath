@@ -6,49 +6,48 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/animal-sniffer-annotations-1.14.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/byte-buddy-1.7.5.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/byte-buddy-1.8.15.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/checker-compat-qual-2.0.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/client-combined-3.7.1.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/client-combined-3.7.1-sources.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/commons-io-2.4.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/curvesapi-1.04.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/error_prone_annotations-2.1.3.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/guava-23.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/guava-25.0-jre.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/hamcrest-all-1.3.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/hamcrest-core-2.1.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/j2objc-annotations-1.1.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/jsr305-1.3.9.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/okhttp-3.11.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/poi-examples-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/poi-excelant-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/poi-scratchpad-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-api-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-chrome-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-edge-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-firefox-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-ie-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-java-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-opera-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-remote-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-safari-driver-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/selenium-support-3.141.0.jar"/>
-	<classpathentry kind="lib" path="F:/AUTOMATION/selenium librari/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/animal-sniffer-annotations-1.14 (1).jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/byte-buddy-1.7.5 (1).jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/checker-compat-qual-2.0.0 (1).jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/client-combined-3.7.1.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/client-combined-3.7.1-sources (1).jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/commons-codec-1.10 (1).jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/hamcrest-core-2.1.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-api-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-chrome-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-edge-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-firefox-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-ie-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-java-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-opera-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-remote-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-safari-driver-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/selenium-support-3.141.0.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/slf4j.jar"/>
+	<classpathentry kind="lib" path="F:/Selenium Jar/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

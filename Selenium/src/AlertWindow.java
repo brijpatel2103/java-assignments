@@ -3,7 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AlertWindow {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/delete_customer.php");
 		driver.manage().window().maximize();

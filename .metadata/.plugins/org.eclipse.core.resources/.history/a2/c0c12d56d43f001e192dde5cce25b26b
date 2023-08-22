@@ -1,0 +1,5 @@
+package com.maven.AppiumTest;
+
+public class CalculatorTest {
+
+}

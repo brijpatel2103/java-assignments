@@ -12,7 +12,7 @@ public class LoginTesting {
 	@BeforeClass
 	public static void driver() throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		driver=new ChromeDriver();
 		System.out.println("1");
 	}

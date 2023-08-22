@@ -13,7 +13,7 @@ public class JunitTesting {
 	@BeforeClass
 	public static void beforeclass() throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		driver=new ChromeDriver();
 	
 	}

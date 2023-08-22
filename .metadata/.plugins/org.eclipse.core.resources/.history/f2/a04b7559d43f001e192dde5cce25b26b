@@ -1,0 +1,24 @@
+package com.maven.AppiumTest;
+
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+		
+	}
+	public static void openCalculator()
+	{
+		DesiredCapabilities cap=new DesiredCapabilities();
+		cap.setCapability("deviceName", "Xiaomi POCO F1");
+		cap.setCapability("udid", "");
+		cap.setCapability("plateformName", "Android");
+		cap.setCapability("plateformVersion", "10");
+		cap.setCapability("appPackage", "com.miui.calculator");
+		cap.setCapability("appActivity", "com.miui.calculator.cal.CalculatorActivity");
+		cap.setCapability("automationName", "UiAutomator2");
+		URL url=new URL("http://127.0.0.1:4723");
+	}
+}

@@ -3,7 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class XpathDemo {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\AUTOMATION\\selenium librari\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/selenium-xpath.html");
 		driver.manage().window().maximize();

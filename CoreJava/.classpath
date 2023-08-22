@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/AUTOMATION/mysql-5.0.7.jar"/>
+	<classpathentry kind="lib" path="F:/mysql-5.0.7.jar/mysql-5.0.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
