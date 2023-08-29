@@ -1,0 +1,57 @@
+package com.maven.AppiumTest;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.Driver;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+
+public class CalculatorTest {
+
+	static AppiumDriver driver=null;
+	public static void main(String[] args) throws  InterruptedException,Exception{
+		try {
+			openCalculator();
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void openCalculator() throws MalformedURLException,InterruptedException
+	{
+		DesiredCapabilities cap=new DesiredCapabilities();
+		cap.setCapability("deviceName", "Xiaomi POCO F1");
+		cap.setCapability("udid", "915997cd");
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("platformVersion", "10");
+		cap.setCapability("appPackage", "com.miui.calculator");
+		cap.setCapability("appActivity", "com.miui.calculator.cal.CalculatorActivity");
+		cap.setCapability("automationName", "UiAutomator2");
+		URL url=new URL("http://127.0.0.1:4723/");
+		
+		driver=new AppiumDriver(url,cap);
+		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+		//Thread.sleep(2000);
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.TextView[2]")).click();
+		//Thread.sleep(1000);
+		/*
+		 * driver.findElement(By.id("com.miui.calculator:id/btn_9_s")).click();
+		 * //Thread.sleep(1000);
+		 * driver.findElement(By.id("com.miui.calculator:id/btn_plus_s")).click();
+		 * //Thread.sleep(1000);
+		 * driver.findElement(By.id("com.miui.calculator:id/btn_7_s")).click();
+		 * //Thread.sleep(1000);
+		 * driver.findElement(By.id("com.miui.calculator:id/btn_4_s")).click();
+		 * //Thread.sleep(1000);
+		 * driver.findElement(By.id("com.miui.calculator:id/btn_equal_s")).click();
+		 * //Thread.sleep(1000);
+		 */		System.out.println("Connect Done");
+		driver.quit();
+	}
+}

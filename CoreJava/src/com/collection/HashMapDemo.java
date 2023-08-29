@@ -14,6 +14,7 @@ public class HashMapDemo {
 		
 		System.out.println(map);
 		System.out.println(map.get(152));
+		System.out.println(map.entrySet());
 		Set set=map.entrySet();
 		Iterator itr=set.iterator();
 		while(itr.hasNext())

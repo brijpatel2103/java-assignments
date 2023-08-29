@@ -20,35 +20,30 @@ public class AppTest{
 	{
 		UiAutomator2Options options=new UiAutomator2Options();
 		options.setDeviceName("Brij");
-		options.setApp("F:\\Test APK\\ApiDemos-debug.apk");
+		options.setApp("F:\\Test APK\\instagram-254-0-0-19-109.apk");
 		
 		AndroidDriver driver=new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 		
-		Thread.sleep(7000);
-		
-		driver.findElement(By.id("android:id/text1")).click();
-		Thread.sleep(3000);
-		driver.navigate().back();
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Animation\"]")).click();
-		Thread.sleep(3000);
-		driver.navigate().back();
 		Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"App\"]")).click();
+		driver.findElement(By.id("com.instagram.android:id/facebook_text_switcher")).click();
 		Thread.sleep(3000);
-		driver.navigate().back();
+		//driver.navigate().back();
+		//Thread.sleep(3000);
+		driver.findElement(By.id("m_login_email")).sendKeys("Brij Patel");
 		Thread.sleep(3000);
+		//driver.navigate().back();
+		//Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Content\"]")).click();
+		driver.findElement(By.id("m_login_password")).sendKeys("brijesh@2103");
 		Thread.sleep(3000);
-		driver.navigate().back();
-		Thread.sleep(3000);
+		//driver.navigate().back();
+		//Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Graphics\"]")).click();
+		driver.findElement(By.id("android.widget.Button")).click();
 		Thread.sleep(3000);
-		driver.navigate().back();
-		Thread.sleep(3000);
+		//driver.navigate().back();
+		//Thread.sleep(3000);
 		
 		
 		

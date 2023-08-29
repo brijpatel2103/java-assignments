@@ -11,11 +11,11 @@ public class SortEmpSalary implements Comparator<Emp>
 		int value=0;
 		if(e1.getSalary()>e2.getSalary())
 		{
-			value=-1;
+			value=1;
 		}
 		else if(e1.getSalary()<e2.getSalary())
 		{
-			value=1;
+			value=-1;
 		}
 		else if(e1.getSalary()==e2.getSalary())
 		{
@@ -60,7 +60,7 @@ public class SortEmpSalary implements Comparator<Emp>
 		Collections.sort(list, new SortEmpSalary());
 		for(Emp e:list)
 		{
-			System.out.println("EID : "+e.getEid()+"ENAME : "+e.getEname()+"ESALARY : "+e.getSalary());
+			System.out.println("EID : "+e.getEid()+" ENAME : "+e.getEname()+" ESALARY : "+e.getSalary());
 		}
 	}
 

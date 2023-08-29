@@ -1,0 +1,62 @@
+package com.maven.AppiumTest;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.Driver;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+
+public class CalculatorTest {
+
+	static AppiumDriver driver = null;
+
+	public static void main(String[] args) throws InterruptedException {
+		try {
+			openCalculator();
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public static void openCalculator() throws MalformedURLException, InterruptedException {
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability("deviceName", "samsung SM-M127G");
+		cap.setCapability("udid", "RZ8T60TGEFX");
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("platformVersion", "13");
+		cap.setCapability("appPackage", "com.sec.android.app.popupcalculator");
+		cap.setCapability("appActivity", "com.sec.android.app.popupcalculator.Calculator");
+		cap.setCapability("automationName", "UiAutomator2");
+		URL url = new URL("http://127.0.0.1:4723/");
+
+		driver = new AppiumDriver(url, cap);
+		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+
+		
+		  driver.findElement(By.id(
+		  "com.sec.android.app.popupcalculator:id/calc_keypad_btn_09")).click();
+		  Thread.sleep(1000); driver.findElement(By.id(
+		  "com.sec.android.app.popupcalculator:id/calc_keypad_btn_06")).click();
+		  Thread.sleep(1000); driver.findElement(By.id(
+		  "com.sec.android.app.popupcalculator:id/calc_keypad_btn_add")).click();
+		  Thread.sleep(1000); driver.findElement(By.id(
+		  "com.sec.android.app.popupcalculator:id/calc_keypad_btn_08")).click();
+		  Thread.sleep(1000); driver.findElement(By.id(
+		  "com.sec.android.app.popupcalculator:id/calc_keypad_btn_01")).click();
+		  Thread.sleep(1000); driver.findElement(By.id(
+		  "com.sec.android.app.popupcalculator:id/calc_keypad_btn_equal")).click();
+		 Thread.sleep(1000);
+		 
+		System.out.println("connected");
+		 String value=driver.findElement(By.id("com.sec.android.app.popupcalculator:id/calc_edt_formula")).getText();
+		 System.out.println("my output is.."+value);
+	}
+
+}

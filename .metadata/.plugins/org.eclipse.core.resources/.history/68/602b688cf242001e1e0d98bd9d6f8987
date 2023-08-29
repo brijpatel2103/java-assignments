@@ -1,0 +1,13 @@
+package com.maven.AppiumTest;
+
+public class ECommerceTest {
+	public static void main(String[] args) {
+		TestECommerce();
+	}
+
+
+	public static void TestECommerce()
+	{
+		
+	}
+}

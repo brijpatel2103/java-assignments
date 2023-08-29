@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.maven.AppiumTest.OpenGallery&apos; to &apos;Gallery&apos;&#x0D;&#x0A;- Original project: &apos;AppiumTest&apos;&#x0D;&#x0A;- Original element: &apos;com.maven.AppiumTest.OpenGallery&apos;&#x0D;&#x0A;- Renamed element: &apos;com.maven.AppiumTest.Gallery&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OpenGallery&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;com.maven.AppiumTest{OpenGallery.java[OpenGallery" matchStrategy="1" name="Gallery" qualified="false" references="true" similarDeclarations="false" stamp="1692701146116" textual="false" version="1.0"/>
+</session>
