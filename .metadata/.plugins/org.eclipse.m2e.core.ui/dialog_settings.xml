@@ -29,10 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.maven"/>
 			<item value="com.maven.AppiumTest"/>
 			<item value="com.maven.TestNGTesting"/>
 			<item value="com.maven.Junitmaven"/>
-			<item value="com.maven"/>
 			<item value="com.maven.MavenDemo"/>
 		</list>
 		<list key="groupId">

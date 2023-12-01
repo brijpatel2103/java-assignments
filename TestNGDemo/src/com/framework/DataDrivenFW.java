@@ -47,7 +47,7 @@ public class DataDrivenFW {
 	@Test
 	public void test() throws Exception, Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver.exe");
 		String[][] data=readExcel();
 		for(int i = 0;i<data.length;i++)
 		{

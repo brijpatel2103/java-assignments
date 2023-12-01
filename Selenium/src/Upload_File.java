@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Upload_File {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/upload/");
 		driver.manage().window().maximize();

@@ -3,11 +3,17 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DynamicWebTable {
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver-win64\\chromedriver.exe");
-		ChromeDriver driver=new ChromeDriver();
+		/*
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "F:\\chromedriver.exe"); ChromeDriver driver=new
+		 * ChromeDriver();
+		 */
+		System.setProperty("webdriver.gecko.driver", "F:\\geckodriver-v0.33.0-win64\\geckodriver.exe");
+		FirefoxDriver driver=new FirefoxDriver();
 		driver.get("https://www.moneycontrol.com/stocks/marketstats/bsegainer/index.php");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
